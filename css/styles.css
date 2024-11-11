@@ -146,22 +146,23 @@ img {
 /* #region footer */
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
-}
+  }
+ 
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
   margin-top: 16px;
 }
 .footer-container {
-  max-width: 264px;
   display: inline-block;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 100px 0;
 }
 
 /*#endregion*/
@@ -293,8 +294,9 @@ img {
   justify-content: center;
   flex-direction: column;
   padding: 32px 16px;
+  border-top: none;
 }
-.portfolio-subtitle{
+.portfolio-subtitle {
   margin-bottom: 8px;
 }
 /*#endregion*/
